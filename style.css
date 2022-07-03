@@ -1,0 +1,127 @@
+body{
+    color: wheat;
+    
+    margin: 0px;
+    padding: 0px;
+    background-image: url('img/bg3.jpg');
+    background-size: cover;
+    height: 100%;
+    
+}
+
+header{
+    /* border: 5px solid blue; */
+    font-size: 20px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+
+header .left{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 2px;
+    text-align: center;
+    line-height: 19px;
+    font-size: 18px;
+    overflow: auto;
+    background-color: #00000030;
+    padding: 10px;
+    border-radius: 15px;
+}
+header .left:hover{
+    background-color: #00000065;
+}
+header .left img{
+    width: 50px;
+    filter: invert(100%);
+}
+header .mid{
+    display: block;
+    margin: auto;
+    width: 33%;
+}
+header .right{
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    background: none;
+}
+
+.btn:hover{
+    background-color: gray;
+}
+.btn{
+    background-color:white;
+    color: black;
+    padding: 4px 14px;
+    margin: 0px -8px;
+    border-radius: 5px;
+    
+}
+.btn a{
+    color: rgb(53, 51, 51);
+}
+
+.navbar{
+    background-color: black;
+    border-radius: 30px;
+    padding-inline-end: 40px; /* padding-inline-start : 40px by default*/
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color:white;
+}
+.navbar li a:hover{
+    color: rgb(196, 193, 208);
+    /* font-size: 18px; */
+    text-decoration: underline;
+
+}
+
+.container {
+    border: 2px solid #ffffff44;
+    margin: 100px 5px;
+    padding: 75px;
+    width: 38%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: #ffffffb0;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+    background-color: #00000030 ;
+    border-radius: 50px;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+    background-color: #ffffff44;
+}
